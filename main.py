@@ -116,7 +116,7 @@ def amazon_links():
     print(f"Tweeted an affiliate link:\n{tweet}")
 ###############################################
 #Decides which function above will get executed
-tweets = (human_nature_accounts, human_nature_accounts, human_nature_without, "accounts_that_engage", human_nature_without, human_nature_dict, human_nature_dict, psych, affiliate_links)
+tweets = (human_nature_accounts, human_nature_without, "accounts_that_engage", human_nature_dict, psych, affiliate_links)
 while True:
     birthday_boy()
     tweet_list = choice(tweets)
