@@ -1,9 +1,14 @@
 import tweepy
-from time import sleep
+from time import sleep, tzset
 from random import choice
 from hn_lists_dicts import human_nature_accounts, human_nature_without, human_nature_dict, birthday, psych
 from affiliates import affiliate_links
 import engaging_accounts
+import os
+
+#PythonAnywhere console is set in London time
+os.environ["TZ"] = "America/Boise" #mountain time
+tzset()
 
 #Get your keys from the Twitter developer site
 #https://developer.twitter.com/
