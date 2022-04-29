@@ -4,4 +4,4 @@ This bot is specifically designed for just tweeting. It doesn't spam accounts or
 ```
 pip install tweepy
 ```
-My Twitter Bot: [HumanNatureBot](twitter.com/HumanNatureBot)
+My Twitter Bot: [HumanNatureBot](https://twitter.com/HumanNatureBot)
